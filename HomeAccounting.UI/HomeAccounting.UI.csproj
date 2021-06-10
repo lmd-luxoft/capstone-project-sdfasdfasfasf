@@ -5,4 +5,8 @@
     <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HomeAccounting.Root\HomeAccounting.Root.csproj" />
+  </ItemGroup>
+
 </Project>
