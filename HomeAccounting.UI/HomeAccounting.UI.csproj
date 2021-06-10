@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HomeAccounting.Root\HomeAccounting.Root.csproj" />
+    <ProjectReference Include="..\HomeAccounting.Root\HomeAccounting.CompositionRoot.csproj" />
   </ItemGroup>
 
 </Project>
