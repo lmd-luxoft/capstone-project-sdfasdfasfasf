@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HomeAccounting.BusinesLogic.Contract\HomeAccounting.BusinessLogic.Contract.csproj" />
+    <ProjectReference Include="..\HomeAccounting.Datasource.Contract\HomeAccounting.Datasource.Contract.csproj" />
+  </ItemGroup>
+
 </Project>
