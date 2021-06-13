@@ -1,11 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.90" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\HomeAccounting.BusinesLogic.Contract\HomeAccounting.BusinessLogic.Contract.csproj" />
+    <ProjectReference Include="..\HomeAccounting.BusinesLogic.EF\HomeAccounting.BusinesLogic.EF.csproj" />
     <ProjectReference Include="..\HomeAccounting.BusinesLogic\HomeAccounting.BusinessLogic.csproj" />
     <ProjectReference Include="..\HomeAccounting.Datasource.Contract\HomeAccounting.Datasource.Contract.csproj" />
     <ProjectReference Include="..\HomeAccounting.Datasource\HomeAccounting.Datasource.csproj" />

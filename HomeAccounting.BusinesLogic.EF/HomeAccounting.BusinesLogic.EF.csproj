@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HomeAccounting.BusinesLogic.Contract\HomeAccounting.BusinessLogic.Contract.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="AppLogic\" />
+  </ItemGroup>
+
+</Project>
