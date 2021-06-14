@@ -22,7 +22,7 @@ namespace HomeAccounting.BusinesLogic.EF.Domain
             }
         }
 
-        public int Title
+        public string Title
         {
             get => default;
             set

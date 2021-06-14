@@ -14,7 +14,31 @@ namespace HomeAccounting.BusinesLogic.EF.Domain
             }
         }
 
-        public int Location
+        public decimal Balance
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public DateTime CreationDate
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public PropertyType Title
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public string Location
         {
             get => default;
             set

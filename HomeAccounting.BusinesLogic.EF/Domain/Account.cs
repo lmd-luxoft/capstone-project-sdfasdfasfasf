@@ -14,7 +14,7 @@ namespace HomeAccounting.BusinesLogic.EF.Domain
             }
         }
 
-        public int Balance
+        public decimal Balance
         {
             get => default;
             set

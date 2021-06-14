@@ -4,9 +4,9 @@ using System.Text;
 
 namespace HomeAccounting.BusinesLogic.EF.Domain
 {
-    public class PropertyPriceChange : Entity
+    public class Operation : Entity
     {
-        public decimal Delta
+        public DateTime ExecutionDate
         {
             get => default;
             set
@@ -14,7 +14,15 @@ namespace HomeAccounting.BusinesLogic.EF.Domain
             }
         }
 
-        public int RegistrationDate
+        public decimal Amount
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public IEnumerable<Account> Accounts
         {
             get => default;
             set

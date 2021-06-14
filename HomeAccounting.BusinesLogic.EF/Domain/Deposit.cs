@@ -14,7 +14,7 @@ namespace HomeAccounting.BusinesLogic.EF.Domain
             }
         }
 
-        public int Persent
+        public decimal Persent
         {
             get => default;
             set
