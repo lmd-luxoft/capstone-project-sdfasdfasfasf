@@ -50,7 +50,7 @@ namespace HomeAccounting.BusinesLogic.EF.AppLogic
                 Title = (PropertyType)account.Params[0]
             };
 
-            _ctx.Properties.Add(p);
+            _ctx.Properties.AddAsync(p);
         }
         private void CreateDeposit(AccountModel account)
         {
@@ -69,7 +69,7 @@ namespace HomeAccounting.BusinesLogic.EF.AppLogic
                 Persent = (decimal)account.Params[3]
             };
 
-            _ctx.Deposites.Add(d);
+            _ctx.Deposites.AddAsync(d);
         }
 
         private Domain.Account CreateCash(AccountModel account)
